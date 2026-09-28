@@ -1,7 +1,10 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  allowedDevOrigins: [
+    '192.168.100.124',
+    'mayflower-graceful-wipe.ngrok-free.dev',
+  ],
+}
 
-export default nextConfig;
+export default nextConfig
